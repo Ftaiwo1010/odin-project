@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: gainsboro;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background: white;
+}
+
+
+.logo-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: purple;
+}
+
+
+.logo {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+
+li {
+    font-size: 18px;
+}
+
+
+.new-not {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+
+.not {
+    background-color: purple;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+
+.circle {
+    background-color: purple;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+
